@@ -3,8 +3,8 @@
 > 這個 README 的「活動紀錄區塊」會由 GitHub Actions 自動更新。
 
 ## About
-- GitHub: https://github.com/YOUR_GITHUB_USERNAME/Assignment8
-- Pages: https://YOUR_GITHUB_USERNAME.github.io/Assignment8/
+- GitHub: https://github.com/chy900609/Assignment8
+- Pages: https://chy900609.github.io/Assignment8/
 
 ## Activity
 下方區塊會由工作流程自動更新 👇
