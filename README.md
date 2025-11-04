@@ -11,7 +11,16 @@
 
 
 <!--START_SECTION:activity-->
-（這一段會被機器人覆蓋）
+1. 📝 Committed to [chy900609/Assignment8](https://github.com/chy900609/Assignment8/commit/e4424e1617ae35d0c17a918b8ba44ec8049d2d04)
+2. 📝 Committed to [chy900609/Assignment8](https://github.com/chy900609/Assignment8/commit/9574b4c01b23389470cc867eeb745a298bac5da3)
+3. 📝 Committed to [chy900609/Assignment8](https://github.com/chy900609/Assignment8/commit/e4ab986997b72d9877d212efd3d1c541382c9130)
+4. 📝 Committed to [chy900609/Assignment8](https://github.com/chy900609/Assignment8/commit/ff026e4877209d829eaab9bd36327dc6194b83bb)
+5. 📝 Committed to [chy900609/Assignment8](https://github.com/chy900609/Assignment8/commit/3adcd5968be037f0b4f166ac8645e44f2fc073c6)
+6. 📝 Committed to [chy900609/Assignment8](https://github.com/chy900609/Assignment8/commit/dee33340cfba47b1d6e712cc009e8021e5e90783)
+7. 📝 Committed to [chy900609/Assignment8](https://github.com/chy900609/Assignment8/commit/ecd2d70b00cf099a9f1f2ed5f916d7f89a65566c)
+8. 📝 Committed to [chy900609/Assignment8](https://github.com/chy900609/Assignment8/commit/da9d0f74ba710196a4b4d908eda90f7a6c39df66)
+9. 🎉 Created a new branch [`main`](https://github.com/chy900609/Assignment8/tree/main) in [chy900609/Assignment8](https://github.com/chy900609/Assignment8)
+10. 📝 Committed to [Galin12341/AG6](https://github.com/Galin12341/AG6/commit/b742048fb88bcc2ca21cd8b62f0da89a2e138f8c)
 <!--END_SECTION:activity-->
 ---
 
