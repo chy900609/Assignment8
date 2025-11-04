@@ -26,7 +26,7 @@ jobs:
           # 可選：產出寫到哪個檔案（預設通常是 README.md；這裡明確指定）
           README_PATH: README.md
           # 其他可選參數（需要才加）
-          # EVENT_LIMIT: 20
+          EVENT_LIMIT: 20
           # IGNORE_EVENTS: "IssueCommentEvent,PullRequestReviewCommentEvent"
           # HIDE_DETAILS_ON_PRIVATE_REPOS: true
           # COMMIT_MESSAGE: "chore: auto-update activity log"
