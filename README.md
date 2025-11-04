@@ -9,10 +9,10 @@
 ## Activity
 下方區塊會由工作流程自動更新 👇
 
-<!-- ACTIVITY-LOG:START -->
-（這一段會被機器人覆蓋）
-<!-- ACTIVITY-LOG:END -->
 
+<!--START_SECTION:activity-->
+（這一段會被機器人覆蓋）
+<!--END_SECTION:activity-->
 ---
 
 ## How it works (簡述流程)
