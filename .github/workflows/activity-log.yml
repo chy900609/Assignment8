@@ -27,9 +27,17 @@ jobs:
           README_PATH: README.md
           # 其他可選參數（需要才加）
           EVENT_LIMIT: 20
-          # IGNORE_EVENTS: "IssueCommentEvent,PullRequestReviewCommentEvent"
-          # HIDE_DETAILS_ON_PRIVATE_REPOS: true
-          # COMMIT_MESSAGE: "chore: auto-update activity log"
+          IGNORE_EVENTS: "IssueCommentEvent,PullRequestReviewCommentEvent"
+          HIDE_DETAILS_ON_PRIVATE_REPOS: true
+          COMMIT_MESSAGE: "chore: auto-update activity log"
+          EVENT_EMOJI_MAP: |
+            {
+              "PushEvent":"📝",
+              "PullRequestEvent":{"merged":"🔀","opened":"📥","closed":"❌"},
+              "ReleaseEvent":{"published":"🚀"},
+              "WatchEvent":"🔔",
+              "StarEvent":"⭐"
+            }
 
       - name: Commit changes (if any)
         run: |
