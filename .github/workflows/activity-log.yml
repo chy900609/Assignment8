@@ -2,7 +2,7 @@ name: Update Activity Log
 
 on:
   schedule:
-    # 每天 02:00 與 14:00 (UTC) 觸發；台灣時間為 UTC+8 -> 10:00 與 22:00
+    # 每天 02:00 與 14:00 (UTC)；台灣時間 10:00 / 22:00
     - cron: "0 2,14 * * *"
   workflow_dispatch:
 
@@ -18,12 +18,20 @@ jobs:
       - name: Generate Activity Section
         uses: TheDanniCraft/activity-log@v1
         with:
-          token: ${{ secrets.TOKEN }}
-          readme_path: README.md
-          start_marker: "<!-- ACTIVITY-LOG:START -->"
-          end_marker: "<!-- ACTIVITY-LOG:END -->"
+          # 必填：你的 GitHub 使用者名稱（小寫或與個人頁一致）
+          GITHUB_USERNAME: YOUR_GITHUB_USERNAME
+          # Token 參數名要叫 GITHUB_TOKEN；可以用 PAT（secrets.TOKEN）或內建 token
+          # 若只需要公開活動，這行也可改成 ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          # 可選：產出寫到哪個檔案（預設通常是 README.md；這裡明確指定）
+          README_PATH: README.md
+          # 其他可選參數（需要才加）
+          # EVENT_LIMIT: 20
+          # IGNORE_EVENTS: "IssueCommentEvent,PullRequestReviewCommentEvent"
+          # HIDE_DETAILS_ON_PRIVATE_REPOS: true
+          # COMMIT_MESSAGE: "chore: auto-update activity log"
 
-      - name: Commit changes
+      - name: Commit changes (if any)
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
