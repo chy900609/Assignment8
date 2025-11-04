@@ -19,7 +19,7 @@ jobs:
         uses: TheDanniCraft/activity-log@v1
         with:
           # 必填：你的 GitHub 使用者名稱（小寫或與個人頁一致）
-          GITHUB_USERNAME: YOUR_GITHUB_USERNAME
+          GITHUB_USERNAME: chy900609
           # Token 參數名要叫 GITHUB_TOKEN；可以用 PAT（secrets.TOKEN）或內建 token
           # 若只需要公開活動，這行也可改成 ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
